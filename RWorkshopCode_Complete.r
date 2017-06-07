@@ -1,3 +1,8 @@
+install.packages(c("dplyr","lubridate","tidyr",
+                   "ggplot2","scales",
+                   "cluster","apcluster",
+                   "arules","arulesViz",
+                   "Hmisc","RSQLite"))
 
 # For general data manipulation
 library(dplyr)

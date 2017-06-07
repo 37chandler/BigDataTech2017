@@ -1,4 +1,13 @@
 
+
+install.packages(c("dplyr","lubridate","tidyr",
+                   "ggplot2","scales",
+                   "cluster","apcluster",
+                   "arules","arulesViz",
+                   "Hmisc","RSQLite"))
+
+
+
 # For general data manipulation
 library(dplyr)
 library(lubridate)
@@ -25,6 +34,8 @@ library(arulesViz)
 # but if you do use the working.dir as empty string line.
 working.dir <- "C:/Users/jchan/Dropbox/SpeakingGigs/20170607_Minneanalytics/"
 # working.dir <- ""
+
+
 
 input.transaction.file <- "OwnerTransactions_62.txt"
 input.transaction.db <- "20170530_transaction_files.db"
